@@ -7,6 +7,6 @@ app.get('/', (req, res) => {
   res.send('Bem vindos ao WebAcademy!!');
 });
 
-app.listen(8083, () => {
+app.listen(8080, () => {
   console.log('Rodando na porta 8083');
 });
